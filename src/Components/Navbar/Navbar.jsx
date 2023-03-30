@@ -10,6 +10,10 @@ const Navbar = () => {
         setActive('navBar activeNavbar')
     }
 
+    const removeNav = () =>{
+        setActive('navBar activeNavbar')
+    }
+
     return (
         <section className='navBarSection'>
             <header className="header flex">
